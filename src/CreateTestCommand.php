@@ -33,7 +33,9 @@ class CreateTestCommand extends Command
 
             $class = str_replace([dirname($file), '/', '.php'], '', $file);
 
-            file_put_contents($file, $this->getContent($class));
+            if (!file_exists($file)) {
+                file_put_contents($file, $this->getContent($class));
+            }
         });
 
         $output = new SymfonyStyle($input, $output);
