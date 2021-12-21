@@ -42,6 +42,6 @@
         "sort-packages": true
     },
     "bin": [
-        "test-creator create"
+        "test-creator"
     ]
 }
