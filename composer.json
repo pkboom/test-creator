@@ -1,6 +1,6 @@
 {
     "name": "pkboom/test-creator",
-    "description": "Watch file changes",
+    "description": "Creates tests for a package",
     "keywords": [
         "pkboom",
         "test-creator"
