@@ -5,7 +5,7 @@ TestCreator is a simple test creator for packages. It will create tests for ever
 You can create tests.
 
 ```bash
-php test-creator create
+test-creator create
 ```
 
 ## Installation
