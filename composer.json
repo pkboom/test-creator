@@ -43,5 +43,7 @@
     },
     "bin": [
         "test-creator"
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pkboom\TestCreator\Test;
+namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 use Pkboom\TestCreator\CreateTestCommand;
